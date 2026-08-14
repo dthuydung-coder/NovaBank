@@ -48,16 +48,6 @@ The complete dashboard is available here:
 | **DAX** | Measures and calculated KPIs |
 | **SQL** | Data preparation, aggregation, and analytical queries |
 
-## Repository Structure
-
-```text
-NovaBank/
-├── README.md
-├── powerbi/
-│   └── NovaBank.pbix
-├── sql/
-└── screenshots/
-```
 
 ## Key Skills Demonstrated
 
