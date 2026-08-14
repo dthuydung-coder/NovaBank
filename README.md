@@ -1,63 +1,67 @@
-# NovaBank — Bank Loan Risk Analysis
+# NovaBank — Loan Risk Analysis Dashboard
 
-A data analytics project using **SQL** and **Power BI** to explore a bank loan portfolio, analyze borrower and loan characteristics, and visualize credit-risk patterns through an interactive dashboard.
+**Power BI | SQL | Power Query | DAX**
 
-## Project Objective
+NovaBank is a data analytics project focused on analyzing a bank loan portfolio and identifying patterns related to **credit risk, default behavior, borrower profiles, and loan characteristics**.
 
-The project is designed to turn raw loan data into a clear analytical view of portfolio performance and risk. The analysis focuses on understanding how loan characteristics and borrower segments relate to repayment/default behavior and identifying groups that may require closer monitoring.
+The project combines data preparation and analysis with an interactive **Power BI dashboard** designed to turn raw loan data into clear, decision-oriented insights.
 
-## Tools & Technologies
+## Project Objectives
 
-- **SQL** — data cleaning, transformation, feature creation, aggregation, and analytical queries
-- **Power BI** — data modeling, dashboard development, filtering, and visualization
-- **Power Query** — data preparation and transformation
-- **DAX** — calculated measures and dashboard KPIs
+- Evaluate overall loan portfolio performance and credit-risk patterns.
+- Compare default behavior across different borrower and loan segments.
+- Analyze how factors such as **loan grade, loan term, loan amount band, and risk score** relate to loan performance.
+- Build an interactive dashboard that allows users to filter and explore the portfolio from summary KPIs to detailed segments.
 
 ## Analysis Workflow
 
-1. **Data preparation in SQL**
-   - Cleaned and standardized the source data.
-   - Created analytical fields and customer/loan segments.
-   - Used aggregations and conditional logic to support risk analysis.
+### 1. Data Preparation
+- Cleaned and transformed the source data for analysis.
+- Standardized fields and created analytical groupings for reporting.
+- Prepared the data model for use in Power BI.
 
-2. **Exploratory analysis**
-   - Compared portfolio performance across different loan and borrower groups.
-   - Examined variables such as loan amount bands, loan grades, loan terms, and risk scores.
-   - Evaluated patterns associated with default and repayment behavior.
+### 2. Data Analysis
+- Used SQL-based analysis and aggregations to explore portfolio characteristics.
+- Compared borrower and loan groups to identify higher-risk segments.
+- Examined default and repayment patterns across key dimensions.
 
-3. **Power BI dashboard**
-   - Built an interactive dashboard with KPI cards, charts, tables, and slicers.
-   - Enabled drill-down analysis across risk and loan segments.
-   - Organized the report so users can move from portfolio-level KPIs to detailed borrower/loan views.
+### 3. Power BI Dashboard
+- Built KPI cards and interactive visuals to summarize portfolio performance.
+- Created views by **loan grade, loan term, loan amount band, and risk score**.
+- Added slicers and filters to support drill-down analysis.
+- Used Power Query and DAX to support data transformation and calculated metrics.
 
-## Dashboard Preview
+## Power BI File
 
-> Dashboard screenshot will be added in `screenshots/`.
+The complete dashboard is available here:
 
-![NovaBank Power BI Dashboard](screenshots/dashboard-overview.png)
+**[Open / Download NovaBank.pbix](powerbi/NovaBank.pbix)**
+
+> The `.pbix` file can be opened with Microsoft Power BI Desktop.
+
+## Tools & Technologies
+
+| Tool | Usage |
+|---|---|
+| **Power BI** | Dashboard design, visualization, and interactive analysis |
+| **Power Query** | Data cleaning and transformation |
+| **DAX** | Measures and calculated KPIs |
+| **SQL** | Data preparation, aggregation, and analytical queries |
 
 ## Repository Structure
 
 ```text
 NovaBank/
 ├── README.md
-├── sql/
-│   └── README.md
 ├── powerbi/
-│   └── README.md
+│   └── NovaBank.pbix
+├── sql/
 └── screenshots/
-    └── README.md
 ```
 
-## Files to Explore
+## Key Skills Demonstrated
 
-- `sql/` — SQL scripts used for cleaning, transformation, and analysis
-- `powerbi/` — Power BI `.pbix` project file
-- `screenshots/` — dashboard screenshots for quick preview without opening Power BI
-
-## How to View the Project
-
-For a quick review, open the dashboard image in `screenshots/`. For the full interactive report, download the `.pbix` file from `powerbi/` and open it with **Power BI Desktop**.
+`Power BI` · `SQL` · `Power Query` · `DAX` · `Data Cleaning` · `Data Visualization` · `Credit Risk Analysis` · `Dashboard Development`
 
 ## Author
 
